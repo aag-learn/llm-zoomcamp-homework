@@ -2,3 +2,6 @@
 
 python = "latest"
 uv = "latest"
+
+[bootstrap.packages]
+"apt:sqlite3" = "latest"
